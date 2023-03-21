@@ -12,6 +12,14 @@
 }
 
 .wp-block-create-block-wp-dos-dialog {
+	background-color: #ACAEAD;
+	box-shadow: 10px 10px 0 #000000;
 	font-family: Gilbert, sans-serif;
-	font-size: 64px;
+	font-size: 18px;
+	padding: 12px 0 12px 0;
+
+	.wp-dos-dialog-inner {
+		border: 2px solid #333534;
+		margin: 0 6px 0 6px;
+	}
 }
