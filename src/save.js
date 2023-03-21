@@ -19,5 +19,14 @@ import { useBlockProps } from '@wordpress/block-editor';
  */
 export default function save( { attributes } ) {
 	const blockProps = useBlockProps.save();
-	return <div { ...blockProps }><div class="wp-dos-dialog-inner">{ attributes.message }</div></div>;
+	return (
+		<div { ...blockProps }>
+			<div class="wp-dos-dialog-title">
+				{ attributes.window_title }
+			</div>
+			<div class="wp-dos-dialog-inner">
+				{ attributes.message }
+			</div>
+		</div>
+	);
 }

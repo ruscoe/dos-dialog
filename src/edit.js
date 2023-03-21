@@ -29,11 +29,17 @@ export default function Edit( { attributes, setAttributes } ) {
 	const blockProps = useBlockProps();
 	return (
 		<div { ...blockProps }>
+			<div class="wp-dos-dialog-title">
+				<TextControl
+					value={ attributes.window_title }
+					onChange={ ( val ) => setAttributes( { window_title: val } ) }
+				/>
+			</div>
 			<div class="wp-dos-dialog-inner">
-			<TextControl
-				value={ attributes.message }
-				onChange={ ( val ) => setAttributes( { message: val } ) }
-			/>
+				<TextControl
+					value={ attributes.message }
+					onChange={ ( val ) => setAttributes( { message: val } ) }
+				/>
 			</div>
 		</div>
 	);

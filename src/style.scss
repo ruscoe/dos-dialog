@@ -17,6 +17,17 @@
 	font-family: Gilbert, sans-serif;
 	font-size: 18px;
 	padding: 12px 0 12px 0;
+	position: relative;
+
+	.wp-dos-dialog-title {
+		background-color: #ACAEAD;
+		border: solid #333534;
+		border-width: 0 2px 0 2px;
+		left: 50%;
+		position: absolute;
+		top: 0;
+		translate: (-50% 0);
+	}
 
 	.wp-dos-dialog-inner {
 		border: 2px solid #333534;
