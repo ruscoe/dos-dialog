@@ -1,12 +1,12 @@
 {
 	"$schema": "https://schemas.wp.org/trunk/block.json",
 	"apiVersion": 2,
-	"name": "create-block/wp-dos-dialog",
-	"version": "0.1.0",
-	"title": "Wp Dos Dialog",
+	"name": "ruscoe/wp-dos-dialog",
+	"version": "1.0.0",
+	"title": "MS DOS Dialog",
 	"category": "text",
 	"icon": "flag",
-	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
+	"description": "A Gutenberg block that displays your text in the form of an old MS DOS dialog box.",
 	"attributes": {
 		"window_title": {
 			"type": "string",

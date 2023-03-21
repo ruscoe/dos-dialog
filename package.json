@@ -1,8 +1,8 @@
 {
 	"name": "wp-dos-dialog",
-	"version": "0.1.0",
-	"description": "A Gutenberg block to show your pride! This block enables you to type text and style it with the color font Gilbert from Type with Pride.",
-	"author": "The WordPress Contributors",
+	"version": "1.0.0",
+	"description": "A Gutenberg block that displays your text in the form of an old MS DOS dialog box.",
+	"author": "Dan Ruscoe",
 	"license": "GPL-2.0-or-later",
 	"main": "build/index.js",
 	"scripts": {
