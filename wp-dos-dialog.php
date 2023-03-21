@@ -10,7 +10,7 @@
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain:       wp-dos-dialog
  *
- * @package           create-block
+ * @package           wp-dos-dialog
  */
 
 /**
