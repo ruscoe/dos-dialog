@@ -36,10 +36,12 @@ export default function Edit( { attributes, setAttributes } ) {
 				/>
 			</div>
 			<div class="wp-dos-dialog-inner">
-				<TextControl
-					value={ attributes.message }
-					onChange={ ( val ) => setAttributes( { message: val } ) }
-				/>
+				<div class="wp-dos-dialog-message">
+					<TextControl
+						value={ attributes.message }
+						onChange={ ( val ) => setAttributes( { message: val } ) }
+					/>
+				</div>
 			</div>
 		</div>
 	);

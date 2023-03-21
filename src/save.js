@@ -25,7 +25,9 @@ export default function save( { attributes } ) {
 				{ attributes.window_title }
 			</div>
 			<div class="wp-dos-dialog-inner">
-				{ attributes.message }
+				<div class="wp-dos-dialog-message">
+					{ attributes.message }
+				</div>
 			</div>
 		</div>
 	);
