@@ -15,8 +15,8 @@
 		},
 		"message": {
 			"type": "string",
-			"source": "text",
-			"selector": ".wp-dos-dialog-inner"
+			"source": "html",
+			"selector": ".wp-dos-dialog-message"
 		}
 	},
 	"supports": {

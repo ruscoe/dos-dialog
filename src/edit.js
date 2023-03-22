@@ -3,6 +3,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-components/
  */
+import { RichText } from '@wordpress/block-editor';
 import { TextControl } from '@wordpress/components';
 
 /**
@@ -37,8 +38,9 @@ export default function Edit( { attributes, setAttributes } ) {
 			</div>
 			<div class="wp-dos-dialog-inner">
 				<div class="wp-dos-dialog-message">
-					<TextControl
+					<RichText
 						value={ attributes.message }
+						allowedFormats={ [] }
 						onChange={ ( val ) => setAttributes( { message: val } ) }
 					/>
 				</div>

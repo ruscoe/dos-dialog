@@ -4,7 +4,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 
 /**
  * The save function defines the way in which the different attributes should
@@ -26,7 +26,7 @@ export default function save( { attributes } ) {
 			</div>
 			<div class="wp-dos-dialog-inner">
 				<div class="wp-dos-dialog-message">
-					{ attributes.message }
+					<RichText.Content value={ attributes.message } />
 				</div>
 			</div>
 		</div>
