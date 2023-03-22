@@ -31,3 +31,5 @@ or
 `npm install`
 
 `npm run build`
+
+See readme.txt for installation instructions.
