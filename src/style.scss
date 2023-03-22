@@ -11,7 +11,7 @@
 	font-weight: 700;
 }
 
-.wp-block-wp-dos-dialog-ms-dos-dialog {
+.wp-block-dos-dialog-ms-dos-dialog {
 	background-color: #acaead;
 	box-shadow: 10px 10px 0 #000;
 	font-family: ModernDOS, sans-serif;
@@ -19,7 +19,7 @@
 	padding: 12px 0 12px 0;
 	position: relative;
 
-	.wp-dos-dialog-title {
+	.dos-dialog-title {
 		background-color: #acaead;
 		border: solid #333534;
 		border-width: 0 2px 0 2px;
@@ -30,11 +30,11 @@
 		translate: (-50% 0);
 	}
 
-	.wp-dos-dialog-inner {
+	.dos-dialog-inner {
 		border: 2px solid #333534;
 		margin: 0 6px 0 6px;
 
-		.wp-dos-dialog-message {
+		.dos-dialog-message {
 			margin: 0 12px 0 12px;
 			padding: 24px 0 12px 0;
 		}

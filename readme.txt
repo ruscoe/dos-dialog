@@ -1,4 +1,4 @@
-=== WordPress DOS Dialog ===
+=== DOS Dialog ===
 Contributors:      Dan Ruscoe
 Tags:              block
 Tested up to:      6.1
@@ -18,8 +18,8 @@ MS DOS dialog boxes with custom title and message fields!
 
 == Installation ==
 
-1. Copy the plugin to `/wp-content/plugins/wp-dos-dialog`
-2. Activate the WordPress DOS Dialog plugin through the 'Plugins' screen in WordPress
+1. Copy the plugin to `/wp-content/plugins/dos-dialog`
+2. Activate the DOS Dialog plugin through the 'Plugins' screen in WordPress
 
 == Screenshots ==
 

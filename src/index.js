@@ -35,7 +35,7 @@ registerBlockType( metadata.name, {
 	example: {
 		attributes: {
 			window_title: 'MS DOS Dialog',
-			message: 'Wp Dos Dialog',
+			message: 'Welcome to the MS DOS Dialog block!',
 		},
 	},
 	/**

@@ -1,5 +1,5 @@
 {
-	"name": "wp-dos-dialog",
+	"name": "dos-dialog",
 	"version": "1.0.0",
 	"description": "A Gutenberg block that displays your text in the form of an old MS DOS dialog box.",
 	"author": "Dan Ruscoe",

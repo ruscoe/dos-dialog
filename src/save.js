@@ -21,9 +21,9 @@ export default function save( { attributes } ) {
 	const blockProps = useBlockProps.save();
 	return (
 		<div { ...blockProps }>
-			<div class="wp-dos-dialog-title">{ attributes.window_title }</div>
-			<div class="wp-dos-dialog-inner">
-				<div class="wp-dos-dialog-message">
+			<div class="dos-dialog-title">{ attributes.window_title }</div>
+			<div class="dos-dialog-inner">
+				<div class="dos-dialog-message">
 					<RichText.Content value={ attributes.message } />
 				</div>
 			</div>

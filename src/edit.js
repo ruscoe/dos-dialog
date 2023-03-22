@@ -29,7 +29,7 @@ export default function Edit( { attributes, setAttributes } ) {
 	const blockProps = useBlockProps();
 	return (
 		<div { ...blockProps }>
-			<div class="wp-dos-dialog-title">
+			<div class="dos-dialog-title">
 				<TextControl
 					value={ attributes.window_title }
 					onChange={ ( val ) =>
@@ -37,8 +37,8 @@ export default function Edit( { attributes, setAttributes } ) {
 					}
 				/>
 			</div>
-			<div class="wp-dos-dialog-inner">
-				<div class="wp-dos-dialog-message">
+			<div class="dos-dialog-inner">
+				<div class="dos-dialog-message">
 					<RichText
 						value={ attributes.message }
 						allowedFormats={ [
