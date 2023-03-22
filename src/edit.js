@@ -3,7 +3,6 @@
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-components/
  */
-import { RichText } from '@wordpress/block-editor';
 import { TextControl } from '@wordpress/components';
 
 /**
@@ -12,7 +11,7 @@ import { TextControl } from '@wordpress/components';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps, RichText } from '@wordpress/block-editor';
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -33,15 +32,23 @@ export default function Edit( { attributes, setAttributes } ) {
 			<div class="wp-dos-dialog-title">
 				<TextControl
 					value={ attributes.window_title }
-					onChange={ ( val ) => setAttributes( { window_title: val } ) }
+					onChange={ ( val ) =>
+						setAttributes( { window_title: val } )
+					}
 				/>
 			</div>
 			<div class="wp-dos-dialog-inner">
 				<div class="wp-dos-dialog-message">
 					<RichText
 						value={ attributes.message }
-						allowedFormats={ [ 'core/bold', 'core/italic', 'core/strikethrough' ] }
-						onChange={ ( val ) => setAttributes( { message: val } ) }
+						allowedFormats={ [
+							'core/bold',
+							'core/italic',
+							'core/strikethrough',
+						] }
+						onChange={ ( val ) =>
+							setAttributes( { message: val } )
+						}
 					/>
 				</div>
 			</div>
