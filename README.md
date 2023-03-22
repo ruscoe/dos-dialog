@@ -8,7 +8,7 @@ this plugin will fill your heart's entire 32MB of free space with joy.
 The enclosed MS DOS Dialog Gutenberg block allows you to add old-school
 MS DOS dialog boxes with custom title and message fields!
 
-![WordPress DOS Dialog screenshot](https://ruscoe.org/files/dos-dialog/screenshot.png)
+![WordPress DOS Dialog screenshot](https://user-images.githubusercontent.com/87952/226798265-b4cbe098-390d-43da-8e2c-8f8a8e9da36c.png)
 
 ## Installation
 
