@@ -40,7 +40,7 @@ export default function Edit( { attributes, setAttributes } ) {
 				<div class="wp-dos-dialog-message">
 					<RichText
 						value={ attributes.message }
-						allowedFormats={ [] }
+						allowedFormats={ [ 'core/bold', 'core/italic', 'core/strikethrough' ] }
 						onChange={ ( val ) => setAttributes( { message: val } ) }
 					/>
 				</div>
