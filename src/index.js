@@ -3,7 +3,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/developers/block-api/#registering-a-block
  */
-import { registerBlockType } from '@wordpress/blocks';
+import { registerBlockType, registerBlockStyle } from '@wordpress/blocks';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -47,4 +47,20 @@ registerBlockType( metadata.name, {
 	 * @see ./save.js
 	 */
 	save,
+} );
+
+/**
+ * Registers a style to make the DOS dialog look like an install dialog.
+ */
+registerBlockStyle( metadata.name, {
+	name: 'install',
+	label: 'Install',
+} );
+
+/**
+ * Registers a style to make the DOS dialog look like an error dialog.
+ */
+registerBlockStyle( metadata.name, {
+	name: 'error',
+	label: 'Error',
 } );

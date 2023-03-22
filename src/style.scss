@@ -40,3 +40,31 @@
 		}
 	}
 }
+
+.wp-block-dos-dialog-ms-dos-dialog.is-style-install {
+	background-color: #0000aa;
+	color: #fff;
+
+	.dos-dialog-title {
+		background-color: #0000aa;
+		border-color: #fff;
+	}
+
+	.dos-dialog-inner {
+		border-color: #fff;
+	}
+}
+
+.wp-block-dos-dialog-ms-dos-dialog.is-style-error {
+	background-color: #aa0000;
+	color: #fff;
+
+	.dos-dialog-title {
+		background-color: #aa0000;
+		border-color: #fff;
+	}
+
+	.dos-dialog-inner {
+		border-color: #fff;
+	}
+}
