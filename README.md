@@ -14,10 +14,6 @@ MS DOS dialog boxes with custom title and message fields!
 
 To install, you may:
 
-**Download from wordpress.org (TODO: link)**
-
-or
-
 **Download the [latest release from this repository](https://github.com/ruscoe/dos-dialog/releases/tag/1.0.0)**
 
 or
