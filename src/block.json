@@ -5,7 +5,7 @@
 	"version": "1.0.0",
 	"title": "MS DOS Dialog",
 	"category": "text",
-	"icon": "flag",
+	"icon": "desktop",
 	"description": "A Gutenberg block that displays your text in the form of an old MS DOS dialog box.",
 	"attributes": {
 		"window_title": {
