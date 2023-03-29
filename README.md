@@ -12,6 +12,8 @@ MS DOS dialog boxes with custom title and message fields!
 
 ### Block styles
 
+As of version 1.1.0, you can choose between three dialog styles. Replicate install, error, and general DOS dialogs!
+
 ![Screenshot from 2023-03-29 15-25-46](https://user-images.githubusercontent.com/87952/228682497-2f410f39-3338-460f-80ea-32e0ca988784.png)
 
 ## Installation
