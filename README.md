@@ -14,7 +14,7 @@ MS DOS dialog boxes with custom title and message fields!
 
 To install, you may:
 
-**Download the [latest release from this repository](https://github.com/ruscoe/dos-dialog/releases/tag/1.0.0)**
+**Download the [latest release from this repository](https://github.com/ruscoe/dos-dialog/releases/tag/1.1.0)**
 
 or
 
