@@ -10,6 +10,10 @@ MS DOS dialog boxes with custom title and message fields!
 
 ![WordPress DOS Dialog screenshot](https://user-images.githubusercontent.com/87952/226798265-b4cbe098-390d-43da-8e2c-8f8a8e9da36c.png)
 
+### Block styles
+
+![Screenshot from 2023-03-29 15-25-46](https://user-images.githubusercontent.com/87952/228682497-2f410f39-3338-460f-80ea-32e0ca988784.png)
+
 ## Installation
 
 To install, you may:
