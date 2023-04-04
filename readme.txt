@@ -2,7 +2,7 @@
 Contributors:      Dan Ruscoe
 Tags:              block
 Tested up to:      6.1
-Stable tag:        1.0.0
+Stable tag:        1.1.0
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,9 @@ MS DOS dialog boxes with custom title and message fields!
 
 == Changelog ==
 
+= 1.1.0 =
+* Add block styles to customize dialog color
+
 = 1.0.0 =
 * Release
 
@@ -37,5 +40,4 @@ https://www.dafont.com/modern-dos.font
 
 == Future Improvements ==
 
-* Custom colors
 * Blinking text (not certain that's an improvement)
