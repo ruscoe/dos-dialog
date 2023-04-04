@@ -24,6 +24,7 @@ MS DOS dialog boxes with custom title and message fields!
 == Screenshots ==
 
 1. The MS Dos Dialog block showing off some fun Pentium II CPU facts!
+2. The available block styles.
 
 == Changelog ==
 
