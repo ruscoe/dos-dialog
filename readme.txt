@@ -1,6 +1,6 @@
 === DOS Dialog ===
 Contributors:      Dan Ruscoe
-Tags:              block
+Tags:              block, retro, fun
 Tested up to:      6.1
 Stable tag:        1.1.0
 License:           GPL-2.0-or-later
