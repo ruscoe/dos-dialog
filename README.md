@@ -20,6 +20,10 @@ As of version 1.1.0, you can choose between three dialog styles. Replicate insta
 
 To install, you may:
 
+**[Download from WordPress.org](https://wordpress.org/plugins/dos-dialog)**
+
+or
+
 **Download the [latest release from this repository](https://github.com/ruscoe/dos-dialog/releases/tag/1.1.0)**
 
 or
