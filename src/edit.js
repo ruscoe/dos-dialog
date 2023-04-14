@@ -35,7 +35,8 @@ export default function Edit( { attributes, setAttributes } ) {
 						<ToggleControl
 						label="Blinking title"
 						onChange={ ( ) =>
-							setAttributes( { blink_title: ! attributes.blink_title } ) }
+							setAttributes( { blink_title: ! attributes.blink_title } )
+						}
 						checked={ attributes.blink_title }
 						/>
 					</PanelRow>
