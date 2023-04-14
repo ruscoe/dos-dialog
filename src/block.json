@@ -17,6 +17,9 @@
 			"type": "string",
 			"source": "html",
 			"selector": ".dos-dialog-message"
+		},
+		"blink_title": {
+			"type": "boolean"
 		}
 	},
 	"supports": {

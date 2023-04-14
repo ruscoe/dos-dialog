@@ -19,9 +19,10 @@ import { useBlockProps, RichText } from '@wordpress/block-editor';
  */
 export default function save( { attributes } ) {
 	const blockProps = useBlockProps.save();
+	const titleClass = attributes.blink_title ? 'dos-dialog-title dos-dialog-blink-title' : 'dos-dialog-title';
 	return (
 		<div { ...blockProps }>
-			<div class="dos-dialog-title">{ attributes.window_title }</div>
+			<div class={titleClass}>{ attributes.window_title }</div>
 			<div class="dos-dialog-inner">
 				<div class="dos-dialog-message">
 					<RichText.Content value={ attributes.message } />

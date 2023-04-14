@@ -3,7 +3,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/packages/packages-components/
  */
-import { TextControl } from '@wordpress/components';
+import { TextControl, ToggleControl, PanelBody, PanelRow } from '@wordpress/components';
 
 /**
  * React hook that is used to mark the block wrapper element.
@@ -11,7 +11,7 @@ import { TextControl } from '@wordpress/components';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps, RichText } from '@wordpress/block-editor';
+import { useBlockProps, RichText, InspectorControls } from '@wordpress/block-editor';
 
 /**
  * The edit function describes the structure of your block in the context of the
@@ -28,30 +28,44 @@ import { useBlockProps, RichText } from '@wordpress/block-editor';
 export default function Edit( { attributes, setAttributes } ) {
 	const blockProps = useBlockProps();
 	return (
-		<div { ...blockProps }>
-			<div class="dos-dialog-title">
-				<TextControl
-					value={ attributes.window_title }
-					onChange={ ( val ) =>
-						setAttributes( { window_title: val } )
-					}
-				/>
-			</div>
-			<div class="dos-dialog-inner">
-				<div class="dos-dialog-message">
-					<RichText
-						value={ attributes.message }
-						allowedFormats={ [
-							'core/bold',
-							'core/italic',
-							'core/strikethrough',
-						] }
+		<>
+			<InspectorControls>
+				<PanelBody title="Dialog Settings" initialOpen={ false }>
+					<PanelRow>
+						<ToggleControl
+						label="Blinking title"
+						onChange={ ( ) =>
+							setAttributes( { blink_title: ! attributes.blink_title } ) }
+						checked={ attributes.blink_title }
+						/>
+					</PanelRow>
+				</PanelBody>
+			</InspectorControls>
+			<div { ...blockProps }>
+				<div class="dos-dialog-title">
+					<TextControl
+						value={ attributes.window_title }
 						onChange={ ( val ) =>
-							setAttributes( { message: val } )
+							setAttributes( { window_title: val } )
 						}
 					/>
 				</div>
+				<div class="dos-dialog-inner">
+					<div class="dos-dialog-message">
+						<RichText
+							value={ attributes.message }
+							allowedFormats={ [
+								'core/bold',
+								'core/italic',
+								'core/strikethrough',
+							] }
+							onChange={ ( val ) =>
+								setAttributes( { message: val } )
+							}
+						/>
+					</div>
+				</div>
 			</div>
-		</div>
+		</>
 	);
 }
