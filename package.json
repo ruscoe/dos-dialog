@@ -1,6 +1,6 @@
 {
 	"name": "dos-dialog",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "A Gutenberg block that displays your text in the form of an old MS DOS dialog box.",
 	"author": "Dan Ruscoe",
 	"license": "GPL-2.0-or-later",

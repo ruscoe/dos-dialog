@@ -1,8 +1,8 @@
 === DOS Dialog ===
 Contributors:      Dan Ruscoe
 Tags:              block, retro, fun
-Tested up to:      6.1
-Stable tag:        1.1.0
+Tested up to:      6.7.2
+Stable tag:        1.1.1
 License:           GPL-2.0-or-later
 License URI:       https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,10 @@ MS DOS dialog boxes with custom title and message fields!
 2. The available block styles.
 
 == Changelog ==
+
+= 1.1.1 =
+* Update dependencies
+* Update tested up to version
 
 = 1.1.0 =
 * Add block styles to customize dialog color
